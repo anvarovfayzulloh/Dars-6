@@ -12,14 +12,15 @@ $form.addEventListener("submit", (e) => {
         Toastify({
             text: "Input is Empty",
             duration: 3000,
-            destination: "https://github.com/apvarun/toastify-js",
             newWindow: true,
             close: true,
             gravity: "top",
-            position: "left",
+            position: "right",
             stopOnFocus: true,
             style: {
-              background: "#FF0000",
+              background: "red",
+              borderRadius: "10px",
+              fontFamily: "Jost",
             },
           }).showToast()
         return;
