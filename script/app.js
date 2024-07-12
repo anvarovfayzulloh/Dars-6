@@ -54,4 +54,5 @@ $form.addEventListener("submit", (e) => {
     $deleteBtn.addEventListener('click', () => {
         $listItem.remove();
     })}
+    $title.value = '';
 })
