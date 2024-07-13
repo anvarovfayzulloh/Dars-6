@@ -10,7 +10,7 @@ $form.addEventListener("submit", (e) => {
     e.preventDefault()
     if ($title.value.trim() === "") {
         Toastify({
-            text: "Input is Empty",
+            text: "Input is empty",
             duration: 3000,
             newWindow: true,
             close: true,
